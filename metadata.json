@@ -1,0 +1,7 @@
+{
+  "name": "FlavorFusion - AI Recipe Generator",
+  "description": "An AI-powered recipe generator to help you discover new and exciting meals based on the ingredients you have.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
