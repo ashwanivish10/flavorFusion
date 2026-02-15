@@ -4,20 +4,26 @@ import { CircularTestimonials } from './ui/circular-testimonials';
 const founders = [
   {
     quote: "Our journey started in a small kitchen with a simple idea: make cooking joyful and accessible for everyone, no matter what's in their pantry. FlavorFusion is the culmination of that dream.",
-    name: "Alex Chen",
+    name: "Rudra Dubey",
     designation: "Co-Founder & Head Chef",
     src: "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1770&auto=format&fit=crop"
   },
   {
     quote: "We're leveraging cutting-edge AI to solve a timeless problem: the 'what's for dinner' dilemma. Our goal is to inspire creativity and reduce food waste.",
-    name: "Ben Carter",
+    name: "Prashant Verma",
     designation: "Co-Founder & CTO",
     src: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1887&auto=format&fit=crop"
   },
   {
     quote: "Food is about community and connection. We built a platform that not only gives you recipes but also empowers you to feel confident and creative in your own kitchen.",
-    name: "Maria Rodriguez",
+    name: "Shreya Dixit",
     designation: "Co-Founder & Community Lead",
+    src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1770&auto=format&fit=crop"
+  },
+  {
+    quote: "We built a platform that not only gives you recipes but also empowers you to feel confident and creative in your own kitchen.",
+    name: "Ashwani Vishwakarma",
+    designation: "Co-Founder & Ceo",
     src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1770&auto=format&fit=crop"
   },
 ];

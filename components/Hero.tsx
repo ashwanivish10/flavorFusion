@@ -36,44 +36,52 @@ const Hero: React.FC<HeroProps> = ({ onBrowseIdeas, onGenerateRecipe }) => {
               </span>
               Now Powered by Gemini 3 Flash
             </motion.div>
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-black text-dark leading-[1.05] tracking-tight">
-              Turn ingredients into <span className="text-primary italic">art.</span>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-dark leading-[1.1] tracking-tight">
+              Create restaurant-quality meals from<span className="text-primary"> your pantry.</span>
             </h1>
-            <p className="mt-8 text-xl md:text-2xl text-gray-500 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
-              The world's fastest AI chef. Generate creative, healthy, and delicious recipes from whatever is in your fridge.
+            <p className="mt-6 text-lg md:text-xl text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
+              Let AI transform your everyday ingredients into extraordinary dishes. Skip the grocery shopping, reduce food waste, and cook with confidence in minutes.
             </p>
-            <div className="mt-12 flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
+            <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <motion.button
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={onGenerateRecipe}
-                className="bg-primary text-white font-black px-12 py-5 rounded-2xl shadow-2xl shadow-primary/30 hover:bg-primary-hover transition-all duration-300 text-xl"
+                className="bg-primary text-white font-bold px-10 py-4 rounded-xl shadow-lg shadow-primary/30 hover:bg-orange-600 transition-all duration-300 text-base md:text-lg"
               >
-                Cook with AI
+                Generate Recipe
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={onBrowseIdeas}
-                className="bg-white text-gray-700 font-bold px-12 py-5 rounded-2xl shadow-xl hover:bg-gray-50 ring-1 ring-gray-200 transition-all duration-300 text-xl"
+                className="bg-white text-dark font-bold px-10 py-4 rounded-xl shadow-md hover:bg-gray-50 ring-1 ring-gray-200 transition-all duration-300 text-base md:text-lg"
               >
-                Inspiration
+                Explore Ideas
               </motion.button>
             </div>
-            <div className="mt-12 flex items-center justify-center lg:justify-start gap-4">
-              <div className="flex -space-x-3">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <img 
-                    key={i}
-                    className="w-10 h-10 rounded-full border-4 border-white object-cover shadow-sm" 
-                    src={`https://i.pravatar.cc/100?img=${i + 20}`} 
-                    alt="Happy Chef" 
-                  />
-                ))}
+            <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-6 justify-center lg:justify-start">
+              <div className="flex items-center gap-3">
+                <div className="flex -space-x-3">
+                  {[1, 2, 3, 4, 5].map((i) => (
+                    <img 
+                      key={i}
+                      className="w-10 h-10 rounded-full border-3 border-white object-cover shadow-sm" 
+                      src={`https://i.pravatar.cc/100?img=${i + 20}`} 
+                      alt="User" 
+                    />
+                  ))}
+                </div>
+                <div>
+                  <p className="text-sm font-bold text-dark">25,000+</p>
+                  <p className="text-xs text-gray-500">Active users</p>
+                </div>
               </div>
-              <p className="text-sm text-gray-400 font-bold uppercase tracking-widest">
-                Trusted by <span className="text-dark">25,000+</span> kitchens
-              </p>
+              <div className="h-1 w-20 bg-gray-200 hidden sm:block"></div>
+              <div className="text-center sm:text-left">
+                <p className="text-sm font-bold text-dark">4.9★</p>
+                <p className="text-xs text-gray-500">2,500+ reviews</p>
+              </div>
             </div>
           </motion.div>
 
