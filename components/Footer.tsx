@@ -44,7 +44,7 @@ const data = {
   ],
   contact: {
     email: 'support@flavorfusion.com',
-    phone: '+1 (555) 123-4567',
+    phone: '9129333705',
   },
 };
 
