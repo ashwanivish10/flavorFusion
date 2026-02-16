@@ -24,7 +24,7 @@ const founders = [
     quote: "We built a platform that not only gives you recipes but also empowers you to feel confident and creative in your own kitchen.",
     name: "Ashwani Vishwakarma",
     designation: "Co-Founder & Ceo",
-    src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1770&auto=format&fit=crop"
+    src: "https://civil-brown-ys9kqyq0vh.edgeone.app/20260206_203500.jpeg"
   },
 ];
 
