@@ -12,7 +12,7 @@ const founders = [
     quote: "We're leveraging cutting-edge AI to solve a timeless problem: the 'what's for dinner' dilemma. Our goal is to inspire creativity and reduce food waste.",
     name: "Prashant Verma",
     designation: "Co-Founder & CTO",
-    src: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1887&auto=format&fit=crop"
+    src: "https://prospective-indigo-w8z0053t5s.edgeone.app/2b27ab93-22cd-4359-b0d3-1378f731d5f0.jpeg"
   },
   {
     quote: "Food is about community and connection. We built a platform that not only gives you recipes but also empowers you to feel confident and creative in your own kitchen.",
